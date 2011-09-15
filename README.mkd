@@ -17,6 +17,8 @@ Middleware to handle this.
 
 ## Install
 
+First you need to get access to `php-cgi` file.  I got my from [homebrew-alt](https://github.com/adamv/homebrew-alt/blob/master/duplicates/php.rb).
+
     ln -s PATH_TO_Legacy-PHP ~/.pow/php
 
 put your scripts in `$HOME/Sites`

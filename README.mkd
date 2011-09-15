@@ -1,0 +1,24 @@
+= Legacy-PHP
+
+Run Legacy PHP code in Pow.
+
+== Why
+
+I wanted a way to test some JSON stuff without the stack getting into the way.
+
+I was running Pow and and couldn't boot up the Apache server on my Mac because
+Pow already had the port open.
+
+So what this means is that it doesn't support handling of static files, such as
+images and PDFs.
+
+If you want static file support you are going to have to run with some Rack
+Middleware to handle this.
+
+== Install
+
+    ln -s PATH_TO_Legacy-PHP ~/.pow/php
+
+put your scripts in $HOME/Sites
+
+    http://php.dev/index.php

@@ -1,8 +1,8 @@
-= Legacy-PHP
+# Legacy-PHP
 
 Run Legacy PHP code in Pow.
 
-== Why
+## Why
 
 I wanted a way to test some JSON stuff without the stack getting into the way.
 
@@ -15,10 +15,10 @@ images and PDFs.
 If you want static file support you are going to have to run with some Rack
 Middleware to handle this.
 
-== Install
+## Install
 
     ln -s PATH_TO_Legacy-PHP ~/.pow/php
 
-put your scripts in $HOME/Sites
+put your scripts in `$HOME/Sites`
 
     http://php.dev/index.php

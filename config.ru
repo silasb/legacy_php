@@ -8,6 +8,7 @@ SCRIPTS_DIR = File.join(ENV['HOME'], 'Sites')
 
 app = Rack::Builder.app do
   use Rack::Legacy::Php, SCRIPTS_DIR
+  use Rack::Static, :urls => ['/'], :root => SCRIPTS_DIR
 
   run lambda { |env| [404, {'Content-Type' => 'text/html'}, ["Couldn't find script"]] }
 end
